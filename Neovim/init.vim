@@ -9,6 +9,7 @@ Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'kyazdani42/nvim-tree.lua'
+Plug 'akinsho/bufferline.nvim', { 'tag': 'v2.*' }
 
 call plug#end()
 
@@ -23,3 +24,6 @@ source ~/.local/share/nvim/plugged/lualine.nvim/init.lua
 source ~/.local/share/nvim/plugged/lspsaga.nvim/init_lspsaga.vim
 source ~/.local/share/nvim/plugged/telescope.nvim/init_telescope.vim
 source ~/.local/share/nvim/plugged/nvim-tree.lua/init.lua
+source ~/.local/share/nvim/plugged/bufferline.nvim/init.lua
+
+set mouse=a
