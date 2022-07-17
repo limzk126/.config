@@ -24,6 +24,9 @@ set smartindent
 set relativenumber
 set number
 set mouse=a
+syntax on
+set cursorline
+filetype plugin indent on
 
 " Enable the signcolumn permanently
 set signcolumn=yes:1
