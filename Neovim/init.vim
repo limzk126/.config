@@ -28,7 +28,7 @@ set mouse=a
 " Enable the signcolumn permanently
 set signcolumn=yes:1
 
-" tokyonight colorscheme config"
+" tokyonight colorscheme config
 lua << EOF
 vim.g.tokyonight_style = "storm"
 vim.g.tokyonight_colors = { hint = "orange", error = "#ff0000" }
