@@ -25,10 +25,10 @@ set relativenumber
 set number
 set mouse=a
 
-"Enable the signcolumn permanently
+" Enable the signcolumn permanently
 set signcolumn=yes:1
 
-"tokyonight config"
+" tokyonight colorscheme config"
 lua << EOF
 vim.g.tokyonight_style = "storm"
 vim.g.tokyonight_colors = { hint = "orange", error = "#ff0000" }
